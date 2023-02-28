@@ -17,7 +17,7 @@ h1 {
     margin-bottom: 0;
 }
 
-@media (max-width: 460px) {
+@media (max-device-width: 460px) {
     h1 {
         font-size: 3.5rem;
         line-height: 1.2;
@@ -47,11 +47,6 @@ a:visited {
     color: #74638f;
 }
 
-@media only screen and (max-width: 460px) {
-    #content {
-        margin: 0;
-    }
-}
 
 #content {
     margin: 30px 8px;
@@ -59,6 +54,13 @@ a:visited {
     border-radius: 5px;
     background: #eee;
 }
+
+@media (max-device-width: 460px) {
+    #content {
+        margin: 0;
+    }
+}
+
 
 
 img {
@@ -78,7 +80,7 @@ img {
     margin: 15px 0 5px 0;
 }
 
-@media (max-width: 460px) {
+@media (max-device-width: 460px) {
     #figcaption {
         font-size: 1.4rem;
     }
